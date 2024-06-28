@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>customer details</title>
+ <link rel="stylesheet" href="form.css">  
+</head>
+<body>
+  <div id="customer-detail">
+    <h1>Customer Detail</h1>
+    <form id="detail-form">
+       <div>
+         <label for="">First Name : </label><input type="text" placeholder="enter first name" id="first-name" value="" >
+         <label for="">Last Name : </label><input type="text" placeholder="enter last name" id="last-name" value="">
+       </div>
+       <div>
+        <label for="">Contact no : </label><input type="text" placeholder="enter 10 digit contact no" id="contact-no">
+        <label for="">Gmail : </label><input type="gmail" placeholder="enter gmail" id="gmail">
+      </div>
+      <div>
+        <label for="">Gender : </label> <label for="">Male</label><input type="radio" name="gender" value="Male">
+        <label for="">Female: </label><input type="radio" name="gender" value="Female">
+      </div>
+      <div>
+        <label for="">Address : </label><textarea name="" id=" Address"></textarea>
+      </div>
+     
+  </form>
+  <div id="btns">
+    <button id="submit-btn" onclick="submitData()">submit</button>
+    <button id="reset-button">reset</button>
+  </div>
+  </div>
+  <br> 
+
+   <div id="customer-info">
+     
+        <div>First Name = </div>  <div id="f-name"></div> 
+        <div>Last Name = </div> <div id="l-name"></div> 
+        <div>Contact no = </div><div id="c-no"></div>
+        <div>gmail = </div><div id="g-mail"></div>
+        <div>Gender = </div><div id="gender"></div>
+     
+  </div>
+  <script src="form.js">  </script>
+</body>
+</html>

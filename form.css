@@ -1,0 +1,65 @@
+#customer-detail
+{
+  width: 700px;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  border: 2px dashed rgb(174, 174, 232);
+  background-color: beige;
+}
+#customer-detail h1
+{
+  text-align: center;
+}
+#detail-form
+{
+  padding: 20px;
+  font-size: 20px;
+  order: 1px solid rgb(168, 50, 50);
+  background-color: rgb(118, 205, 176);
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px gray;
+}
+#detail-form div
+{
+  margin: 18px;
+}
+#detail-form input
+{
+  height: 20px;
+  width: auto
+}
+#btns
+{
+  text-align: center;
+}
+#btns button
+{
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 3px;
+
+}
+#btns button:hover
+{
+  border: 2px solid black;
+}
+
+#customer-info
+{
+  padding: 10px;
+  order: 1px solid black;
+  display: flex;
+  
+}
+#customer-info div
+{
+  margin: 10px;
+  order: 1px solid red;
+  width: 200px;
+  height: 20px;
+  display: flex;
+}
