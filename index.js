@@ -1,14 +1,20 @@
-let btnValue=[1,2,3,4]
+//let btnValue=[1,2,3,4]
 let input=document.getElementById('input');
 function display(v)
 {
   if(input.value=='0')
-    { input.value='';
-      input.value+=v; 
+    { 
+      input.value='';
+      input.value+=v;
     } 
-  else
+
+  else if(input.value.length<4)
   {
-    input.value+=v; 
+    input.value+=v;
+    console.log(i.length);
+  }
+  else{
+    input.style.border="1px solid red";
   }  
 }
 function calculate()

@@ -7,24 +7,47 @@
  <style>
   #container
   {
-    height: 500px;
-    width: 400px;
+    margin: 0 auto 0 auto;
+    height: 300px;
+    width: 250px;
     text-align: center;
     border: 1px solid black;
+    background: rgb(245, 242, 242);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 2px 1px rgb(215, 214, 214);
+
   }
   #container form input
   {
     height: 30px;
-    width: 300px;
+    width: 200px;
     margin: 20px;
     text-align: right;
     font-size: 30px;
+    background-color: rgb(106, 184, 127);
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset -1px -1px 10px 1px rgb(67, 141, 76);
+
   }
-  #btn
+  .btn
   {
-    padding: 8px;
-    width: 20px;
+    margin: 3px;
+    padding: 5px;
+    width: 40px;
+    font-size: 15px;
     border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgb(215, 214, 214);
+    border: none;
+  }
+  .btn:hover
+  {
+    background-color: antiquewhite;
   }
  </style>
 </head>
@@ -35,23 +58,23 @@
      </form>
      <div id="buttons">
        <button class="btn" onclick="clr()" >c</button>
-       <button class="btn" onclick="del()">del</button>
+       <button class="btn" onclick="del()">del</button><br>
        <button class="btn" onclick="display('1')">1</button>
        <button class="btn" onclick="display('2')">2</button>
        <button class="btn"onclick="display('3')">3</button>
-       <button class="btn"onclick="display('%')">%</button>
+       <button class="btn"onclick="display('%')">%</button><br>
        <button class="btn"onclick="display('4')">4</button>
        <button class="btn"onclick="display('5')">5</button>
        <button class="btn"onclick="display('6')">6</button>
-       <button class="btn"onclick="display('/')">/</button>
+       <button class="btn"onclick="display('/')">/</button><br>
        <button class="btn"onclick="display('7')">7</button>
        <button class="btn"onclick="display('8')">8</button>
        <button class="btn"onclick="display('9')">9</button>
-       <button class="btn"onclick="display('*')">*</button>
+       <button class="btn"onclick="display('*')">*</button><br>
        <button class="btn"onclick="display('+')">+</button>
        <button class="btn"onclick="display('-')">-</button>
        <button class="btn"onclick="display('.')">.</button>
-       <button class="btn"onclick="display('0')">0</button>
+       <button class="btn"onclick="display('0')">0</button><br>
        <button class="btn"onclick="calculate()">=</button>
      </div>
   </div>
