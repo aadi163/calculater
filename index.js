@@ -8,7 +8,7 @@ function display(v)
       input.value+=v;
     } 
 
-  else if(input.value.length<4)
+  else if(input.value.length<8)
   {
     input.value+=v;
     console.log(i.length);
